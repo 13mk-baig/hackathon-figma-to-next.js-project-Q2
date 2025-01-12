@@ -90,10 +90,11 @@ const JoinUs = () => {
 
         {/* Privacy Policy */}
         <p className="text-center text-xs font-inter font-normal mb-4">
-          By creating an account, you agree to Nike's{' '}
-          <Link href="/privacy-policy" className="underline text-black">Privacy Policy</Link> and{' '}
-          <Link href="/terms-of-use" className="underline text-black">Terms of Use</Link>.
-        </p>
+  By creating an account, you agree to Nike&apos;s{' '}
+  <Link href="/privacy-policy" className="underline text-black">Privacy Policy</Link> and{' '}
+  <Link href="/terms-of-use" className="underline text-black">Terms of Use</Link>.
+</p>
+
 
         {/* Join Us Button */}
         <button className="w-full bg-black text-white py-2 rounded-md hover:bg-gray-800 transition">

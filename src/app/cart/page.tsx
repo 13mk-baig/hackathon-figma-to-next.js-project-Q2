@@ -1,12 +1,8 @@
 import Image from 'next/image';
 
-
-
 const Cart = () => {
   return (
     <div className="min-h-screen bg-gray-100">
-      
-
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-6 py-10">
         {/* Free Delivery Section */}
@@ -28,12 +24,12 @@ const Cart = () => {
                 src="/cart.jpg" // Replace with your product image URL
                 width={300}
                 height={300}
-                alt="Product" 
+                alt="Product"
                 className="w-24 h-24 object-cover rounded-md"
               />
               <div className="flex-1">
                 <h2 className="text-lg font-bold">Nike Dri-FIT ADV TechKnit Ultra</h2>
-                <p className="text-gray-600">Men's Short-Sleeve Running Top</p>
+                <p className="text-gray-600">Men&apos;s Short-Sleeve Running Top</p>
                 <p className="text-gray-600">Ashen Slate/Cobalt Bliss</p>
                 <p className="text-gray-600">Size: L</p>
                 <p className="text-gray-600">Quantity: 1</p>
@@ -54,7 +50,7 @@ const Cart = () => {
               />
               <div className="flex-1">
                 <h2 className="text-lg font-bold">Nike Air Max 97 SE</h2>
-                <p className="text-gray-600">Men's Shoes</p>
+                <p className="text-gray-600">Men&apos;s Shoes</p>
                 <p className="text-gray-600">Flat Pewter/Light Bone/Black/White</p>
                 <p className="text-gray-600">Size: 8</p>
                 <p className="text-gray-600">Quantity: 1</p>
@@ -89,8 +85,6 @@ const Cart = () => {
           </div>
         </div>
       </main>
-
-     
     </div>
   );
 };

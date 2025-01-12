@@ -14,7 +14,7 @@ const DontMissSection = () => {
             src="/dont-miss-image.png" // Replace with the actual image path
             width={1344}
             height={700}
-            alt="Don't Miss"
+            alt="\Don't Miss"
             className="w-full rounded-lg"
           />
         </div>

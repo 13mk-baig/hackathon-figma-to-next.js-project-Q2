@@ -56,7 +56,7 @@ const Login = () => {
 
           {/* Privacy Policy & Terms */}
           <p className="text-center text-xs text-gray-600 mt-4">
-            By logging in, you agree to Nike's{' '}
+            By logging in, you agree to Nike&apos;s{' '}
             <Link href="/privacy-policy" className="underline text-black">
               Privacy Policy
             </Link>{' '}

@@ -1,6 +1,5 @@
 import Image from 'next/image';
 
-
 const Checkout = () => {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -23,7 +22,7 @@ const Checkout = () => {
                lineHeight: '24px',
                textDecoration: 'underline'
              }}>
-            Customs regulation for India require a copy of the recipient's KYC.
+            Customs regulation for India require a copy of the recipient&apos;s KYC.
             The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email 
             to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing
             customs (including sharing it with customs officials) for all orders and returns. If your KYC does not
@@ -110,7 +109,7 @@ const Checkout = () => {
             </div>
 
             {/* Contact Information */}
-            <h3 className="text-lg font-bold mb-4">What's your contact information?</h3>
+            <h3 className="text-lg font-bold mb-4">What&apos;s your contact information?</h3>
             <input
               type="email"
               placeholder="Email"
@@ -123,7 +122,7 @@ const Checkout = () => {
             />
 
             {/* PAN Information */}
-            <h3 className="text-lg font-bold mb-4">What's your PAN?</h3>
+            <h3 className="text-lg font-bold mb-4">What&apos;s your PAN?</h3>
             <input
               type="text"
               placeholder="PAN"
@@ -131,7 +130,7 @@ const Checkout = () => {
             />
             <label className="flex items-center">
               <input type="checkbox" className="mr-2" />
-              Save PAN details to Nike Profile
+              Save PAN details to Nike&apos;s Profile
             </label>
             <label className="flex items-center mt-4">
               <input type="checkbox" className="mr-2" />
@@ -186,7 +185,7 @@ const Checkout = () => {
             />
             <div>
               <p className="font-bold">Nike Dri-FIT ADV TechKnit Ultra</p>
-              <p className="text-sm text-gray-600">Men's Short-Sleeve Running Top</p>
+              <p className="text-sm text-gray-600">Men&apos;s Short-Sleeve Running Top</p>
               <p className="text-sm text-gray-600">Qty: 1, Size: L</p>
             </div>
           </div>
@@ -200,7 +199,7 @@ const Checkout = () => {
             />
             <div>
               <p className="font-bold">Nike Air Max 97 SE</p>
-              <p className="text-sm text-gray-600">Men's Shoes</p>
+              <p className="text-sm text-gray-600">Men&apos;s Shoes</p>
               <p className="text-sm text-gray-600">Qty: 1, Size: 8</p>
             </div>
           </div>
@@ -212,4 +211,5 @@ const Checkout = () => {
 };
 
 export default Checkout;
+
 
