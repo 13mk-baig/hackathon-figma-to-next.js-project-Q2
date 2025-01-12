@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import Link from 'next/link';
 
 
@@ -42,11 +42,11 @@ const ContactUs = () => {
             </p>
             <ul className="list-disc ml-6 mb-6 text-gray-700">
               <li>Visa, Mastercard, Diners Club, Discover, American Express, Visa Electron, Maestro</li>
-              <li>If you enter your PAN information at checkout, you’ll be able to pay for your order with PayTM or a local credit or debit card.</li>
+              <li>If you enter your PAN information at checkout, you will be able to pay for your order with PayTM or a local credit or debit card.</li>
               <li>Apple Pay</li>
             </ul>
             <p className="text-gray-700 mb-6">
-              Nike Members can store multiple debit or credit cards in their profile for faster checkout. If you’re not already a Member,{" "}
+              Nike Members can store multiple debit or credit cards in their profile for faster checkout. If you are not already a Member,{" "}
               <a href="#" className="text-blue-500 underline">join us today</a>.
             </p>
             <div className="space-x-4 mb-10">
@@ -61,11 +61,11 @@ const ContactUs = () => {
               </li>
               <li>
                 <h4 className="font-medium">Can I pay for my order with multiple methods?</h4>
-                <p className="text-gray-700">No, payment for Nike orders can’t be split between multiple payment methods.</p>
+                <p className="text-gray-700">No, payment for Nike orders cannot be split between multiple payment methods.</p>
               </li>
               <li>
-                <h4 className="font-medium">Why don’t I see Apple Pay as an option?</h4>
-                <p className="text-gray-700">To see Apple Pay as an option, you’ll need a compatible Apple device running the latest OS.</p>
+                <h4 className="font-medium">Why donot I see Apple Pay as an option?</h4>
+                <p className="text-gray-700">To see Apple Pay as an option, you will need a compatible Apple device running the latest OS.</p>
               </li>
             </ul>
           </div>
@@ -77,14 +77,14 @@ const ContactUs = () => {
               <p>
                 <strong>000 800 919 0566</strong><br />
                 Products & Orders: 24 hours a day, 7 days a week<br />
-                Company Info & Enquiries: 07:30 – 16:30, Monday – Friday
+                Company Info & Enquiries: 07:30 to 16:30, Monday to Friday
               </p>
               <div>
                 <p>24 hours a day</p>
                 <p>7 days a week</p>
               </div>
               <div>
-                <p>We’ll reply within five business days</p>
+                <p>We will reply within five business days</p>
               </div>
               <div>
                 <p>Find Nike retail stores near you</p>
