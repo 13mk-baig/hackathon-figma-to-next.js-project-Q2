@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from "react";
 
 const DontMissSection = () => {
@@ -9,8 +10,10 @@ const DontMissSection = () => {
 
         {/* Image */}
         <div className="relative mb-8">
-          <img
+          <Image
             src="/dont-miss-image.png" // Replace with the actual image path
+            width={1344}
+            height={700}
             alt="Don't Miss"
             className="w-full rounded-lg"
           />

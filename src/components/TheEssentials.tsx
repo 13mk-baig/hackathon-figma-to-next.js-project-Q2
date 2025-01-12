@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from "react";
 
 const TheEssentials = () => {
@@ -23,8 +24,10 @@ const TheEssentials = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* Card 1: Mens */}
           <div className="relative">
-            <img
+            <Image
               src="/mens-essentials.png" // Replace with actual image
+              width={440}
+              height={540}
               alt="Men's Essentials"
               className="w-[440px] h-[540px] rounded-lg object-cover"
             />
@@ -35,8 +38,10 @@ const TheEssentials = () => {
 
           {/* Card 2: Womens */}
           <div className="relative">
-            <img
+            <Image
               src="/womens-essentials.png" // Replace with actual image
+              width={440}
+              height={540}
               alt="Women's Essentials"
               className="w-[440px] h-[540px] rounded-lg object-cover"
             />
@@ -47,8 +52,10 @@ const TheEssentials = () => {
 
           {/* Card 3: Kids */}
           <div className="relative">
-            <img
+            <Image
               src="/kids-essentials.png" // Replace with actual image
+            width={440}
+              height={540}
               alt="Kids Essentials"
               className="w-[440px] h-[540px] rounded-lg object-cover"
             />

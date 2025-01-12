@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from "react";
 
 const HeroSection = () => {
@@ -7,8 +8,10 @@ const HeroSection = () => {
         {/* Hero Image */}
         <div className="relative">
           
-          <img
+          <Image
             src="/main image.png" // Ensure the image is stored in the public folder
+            width= {1344}  
+            height={977} 
             alt="Nike Air Max Pulse"
             className="w-full rounded-lg object-cover"
           />

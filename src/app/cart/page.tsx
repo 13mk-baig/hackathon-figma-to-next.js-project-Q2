@@ -24,9 +24,11 @@ const Cart = () => {
           <div className="lg:col-span-2">
             {/* Item 1 */}
             <div className="flex items-start space-x-6 bg-white p-6 rounded-md shadow-sm mb-4">
-              <img
-                src="cart.jpg" // Replace with your product image URL
-                alt="Product"
+              <Image
+                src="/cart.jpg" // Replace with your product image URL
+                width={300}
+                height={300}
+                alt="Product" 
                 className="w-24 h-24 object-cover rounded-md"
               />
               <div className="flex-1">
@@ -45,8 +47,8 @@ const Cart = () => {
 
             {/* Item 2 */}
             <div className="flex items-start space-x-6 bg-white p-6 rounded-md shadow-sm">
-              <img
-                src="mens-essentials.png" // Replace with your product image URL
+              <Image
+                src="/mens-essentials.png" width={1440} height={5442.36}  // Replace with your product image URL{}
                 alt="Product"
                 className="w-24 h-24 object-cover rounded-md"
               />
@@ -88,7 +90,7 @@ const Cart = () => {
         </div>
       </main>
 
-      
+     
     </div>
   );
 };

@@ -7,6 +7,8 @@ import FeaturedSection from "../components/Featuredsection";
 import GearUpSection from "../components/GearUpSection";
 import DontMissSection from "../components/DontMissSection";
 import TheEssentials from "../components/TheEssentials";
+
+ 
 export default function Home() {
   
 
@@ -22,6 +24,7 @@ export default function Home() {
       <GearUpSection />
       <DontMissSection />
       <TheEssentials />
+      
       
     </div>
   );

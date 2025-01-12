@@ -11,12 +11,12 @@ const ContactUs = () => {
             <h1 className="text-lg font-bold">Nike</h1>
           </div>
           <nav className="space-x-6">
-            <a href="#" className="text-gray-600 hover:text-black">New & Featured</a>
-            <a href="#" className="text-gray-600 hover:text-black">Men</a>
-            <a href="#" className="text-gray-600 hover:text-black">Women</a>
-            <a href="#" className="text-gray-600 hover:text-black">Kids</a>
-            <a href="#" className="text-gray-600 hover:text-black">Sale</a>
-            <a href="#" className="text-gray-600 hover:text-black">SNKRS</a>
+            <Link href="#" className="text-gray-600 hover:text-black">New & Featured</Link>
+            <Link href="#" className="text-gray-600 hover:text-black">Men</Link>
+            <Link href="#" className="text-gray-600 hover:text-black">Women</Link>
+          <Link href="#" className="text-gray-600 hover:text-black">Kids</Link>
+            <Link href="#" className="text-gray-600 hover:text-black">Sale</Link>
+            <Link href="#" className="text-gray-600 hover:text-black">SNKRS</Link>
           </nav>
         </div>
       </header>
@@ -99,22 +99,22 @@ const ContactUs = () => {
           <div>
             <h4 className="font-bold mb-4">FIND A STORE</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:underline">Become a Member</a></li>
-              <li><a href="#" className="hover:underline">Sign up for Email</a></li>
+              <li><Link href="#" className="hover:underline">Become a Member</Link></li>
+              <li><Link href="#" className="hover:underline">Sign up for Email</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold mb-4">GET HELP</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:underline">Order Status</a></li>
-              <li><a href="#" className="hover:underline">Delivery</a></li>
+              <li><Link href="#" className="hover:underline">Order Status</Link></li>
+              <li><Link href="#" className="hover:underline">Delivery</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold mb-4">ABOUT NIKE</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:underline">News</a></li>
-              <li><a href="#" className="hover:underline">Careers</a></li>
+              <li><Link href="#" className="hover:underline">News</Link></li>
+              <li><Link href="#" className="hover:underline">Careers</Link></li>
             </ul>
           </div>
         </div>

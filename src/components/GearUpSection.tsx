@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from "react";
 
 const GearUpSection = () => {
@@ -46,8 +47,10 @@ const GearUpSection = () => {
               className="bg-gray-100 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               {/* Product Image */}
-              <img
+              <Image
                 src={product.image}
+                width={300}
+                height={393}
                 alt={product.name}
                 className="w-full h-48 object-contain bg-white"
               />

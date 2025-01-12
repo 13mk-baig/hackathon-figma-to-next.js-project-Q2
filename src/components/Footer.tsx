@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
@@ -46,18 +47,18 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex space-x-6 items-center w-[337px] h-[37px] ml-[1029px]">
-            <a href="#" className="hover:text-gray-400">
+            <Link href="#" className="hover:text-gray-400">
               <FaFacebookF className="w-6 h-6" />
-            </a>
-            <a href="#" className="hover:text-gray-400">
+            </Link>
+            <Link href="#" className="hover:text-gray-400">
               <FaTwitter className="w-6 h-6" />
-            </a>
-            <a href="#" className="hover:text-gray-400">
+            </Link>
+            <Link href="#" className="hover:text-gray-400">
               <FaYoutube className="w-6 h-6" />
-            </a>
-            <a href="#" className="hover:text-gray-400">
+            </Link>
+            <Link href="#" className="hover:text-gray-400">
               <FaInstagram className="w-6 h-6" />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -70,10 +71,10 @@ const Footer = () => {
 
           {/* Additional Links */}
           <div className="flex flex-wrap justify-end space-x-4 text-gray-400 text-xs">
-            <a href="#" className="hover:text-white">Guides</a>
-            <a href="#" className="hover:text-white">Terms of Sale</a>
-            <a href="#" className="hover:text-white">Terms of Use</a>
-            <a href="#" className="hover:text-white">Nike Privacy Policy</a>
+            <Link href="#" className="hover:text-white">Guides</Link>
+            <Link href="#" className="hover:text-white">Terms of Sale</Link>
+            <Link href="#" className="hover:text-white">Terms of Use</Link>
+            <Link href="#" className="hover:text-white">Nike Privacy Policy</Link>
           </div>
         </div>
       </div>

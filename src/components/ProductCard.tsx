@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from "react";
 
 const ProductSection = () => {
@@ -41,8 +42,10 @@ const ProductSection = () => {
               className="bg-gray-100 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               {/* Product Image */}
-              <img
+              <Image
                 src={product.image}
+                width={348}
+                height={348}
                 alt={product.name}
                 className="w-full h-60 object-contain bg-white"
               />

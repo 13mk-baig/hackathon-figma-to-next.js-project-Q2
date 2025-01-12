@@ -177,8 +177,10 @@ const Checkout = () => {
             <p className="text-sm text-gray-600">Mon, 27 Mar - Wed, 12 Apr</p>
           </div>
           <div className="mt-6 flex items-center space-x-4">
-            <img
-              src="cart.jpg" // Replace with product image URL
+            <Image
+              src="/cart.jpg" // Replace with product image URL
+              width={653}
+              height={653}
               alt="Product 1"
               className="w-16 h-16 object-cover rounded-md"
             />
@@ -189,8 +191,10 @@ const Checkout = () => {
             </div>
           </div>
           <div className="mt-4 flex items-center space-x-4">
-            <img
-              src="mens-essentials.png" // Replace with product image URL
+            <Image
+              src="/mens-essentials.png" // Replace with product image URL
+              width={440}
+              height={540}
               alt="Product 2"
               className="w-16 h-16 object-cover rounded-md"
             />

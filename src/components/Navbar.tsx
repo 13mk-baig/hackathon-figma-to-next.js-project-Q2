@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import Image from 'next/image';
 import React from "react";
 
 const Navbar = () => {
@@ -8,30 +10,33 @@ const Navbar = () => {
       
         {/* Left Section: Logo */}
         <div className="text-2xl font-bold">
-          <a href="/">
-            <img
+          <Link href="/">
+            <Image
               src="/vector.png" // Replace with your Nike logo path
+              width= {24}  
+              height={24}  
               alt=" Logo"
               className="h-8"
             />
-          </a>
+          </Link>
         </div>
        
 
         {/* Right Section */}
         <div className="flex space-x-6">
-          <a href="#" className="hover:underline">
+          <Link href="#" className="hover:underline">
             Find a Store
-          </a>
-          <a href="#" className="hover:underline">
+          </Link>
+          <Link href="#" className="hover:underline">
             Help
-          </a>
-          <a href="#" className="hover:underline">
+          </Link>
+          
+          <Link href= "/joinus" className="hover:underline">
             Join Us
-          </a>
-          <a href="#" className="hover:underline">
+          </Link>
+          <Link href="/login" className="hover:underline">
             Sign In
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -39,35 +44,38 @@ const Navbar = () => {
       <header className="flex items-center justify-between px-8 py-4 bg-white shadow-md">
         {/* Left Section: Logo */}
         <div className="text-2xl font-bold">
-          <a href="/">
-            <img
+          <Link href="/">
+            <Image
               src="/nike-logo.png" // Replace with your Nike logo path
+              width= {78.47}  
+              height={78.47} 
               alt="Nike Logo"
               className="h-8"
             />
-          </a>
+          </Link>
         </div>
 
         {/* Center Section: Navigation */}
         <nav className="flex space-x-8 text-gray-800 font-medium">
-          <a href="#" className="hover:text-gray-500">
+          <Link href="#" className="hover:text-gray-500">
             New & Featured
-          </a>
-          <a href="#" className="hover:text-gray-500">
+          </Link>
+          <Link href="#" className="hover:text-gray-500">
             Men
-          </a>
-          <a href="#" className="hover:text-gray-500">
+          </Link>
+          <Link href="#" className="hover:text-gray-500">
             Women
-          </a>
-          <a href="#" className="hover:text-gray-500">
+          </Link>
+          <Link href="#" className="hover:text-gray-500">
             Kids
-          </a>
-          <a href="#" className="hover:text-gray-500">
+          </Link>
+          <Link href="#" className="hover:text-gray-500">
             Sale
-          </a>
-          <a href="#" className="hover:text-gray-500">
+          </Link>
+          <Link href="#" className="hover:text-gray-500">
             SNKRS
-          </a>
+          </Link>
+    
         </nav>
 
         {/* Right Section: Search Bar and Icons */}
@@ -116,8 +124,10 @@ const Navbar = () => {
           </button>
 
           {/* Cart Icon */}
+          <Link href="/cart">
           <button>
             <svg
+            
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
               fill="none"
@@ -132,7 +142,9 @@ const Navbar = () => {
               />
             </svg>
           </button>
+          </Link>
         </div>
+        
       </header>
     </div>
   );
