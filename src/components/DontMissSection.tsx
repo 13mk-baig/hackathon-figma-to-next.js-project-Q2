@@ -14,7 +14,7 @@ const DontMissSection = () => {
             src="/dont-miss-image.png" // Replace with the actual image path
             width={1344}
             height={700}
-            alt="\Don't Miss"
+            alt="Don&apos;t Miss" // Escape apostrophe
             className="w-full rounded-lg"
           />
         </div>
